@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "evil-plugin",
+  "id": "evil-plugin",
+  "includes": [],
+  "info": {
+    "description": "Malicious plugin for testing",
+    "version": "1.0.0",
+    "updated": "2025-06-19",
+    "author": {
+      "name": "bughunter"
+    }
+  },
+  "dependencies": {
+    "grafanaVersion": ">=8.0.0",
+    "plugins": []
+  },
+  "scripts": [
+    "malware.js"
+  ]
+}
